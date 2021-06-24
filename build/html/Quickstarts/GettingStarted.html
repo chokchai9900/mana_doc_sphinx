@@ -1,0 +1,313 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="th" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>การ Register สำหรับนักพัฒนา &mdash; mana_docs  documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="ขั้นตอนการอัพเกรด Tier" href="stepUpgrade_tier.html" />
+    <link rel="prev" title="Production and Sandbox Environments" href="../Introduction/Environments.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> mana_docs
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">INTRODUCTION</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../Introduction/Overview.html">Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Introduction/DevelopmentCycle.html">Development life cycle</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Introduction/Environments.html">Production and Sandbox Environments</a></li>
+</ul>
+<p class="caption"><span class="caption-text">QUICKSTARTS</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">การ Register สำหรับนักพัฒนา</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#mana-user">การเปิดใช้งาน Mana User</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id1">การสมัครเพื่อเป็นนักพัฒนา</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#log-in-devportal">การ Log in เพื่อเข้าใช้งาน DevPortal</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="stepUpgrade_tier.html">ขั้นตอนการอัพเกรด Tier</a></li>
+<li class="toctree-l1"><a class="reference internal" href="test_in_sandbox.html">การทดสอบการทำงานใน Sandbox environment</a></li>
+</ul>
+<p class="caption"><span class="caption-text">TUTORIAL</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../Tutorial/Adhoc.html">Using Adhoc Service</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Tutorial/CreateServices.html">การสร้าง Service</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Tutorial/FromSandbox_Production.html">FromSandbox to Production</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Tutorial/RegisterLoginFlow.html">การใช้ APIs [POST] RegisterLoginFlow</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Tutorial/RegisterLoginFlow.html#rd-login">ระบบ 3rd Login</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Tutorial/Using_manalib.html">Mana library</a></li>
+</ul>
+<p class="caption"><span class="caption-text">APIs</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../apis/APIs.html">API Products</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../apis/Manalib.html">Manawallib</a></li>
+</ul>
+<p class="caption"><span class="caption-text">HOWTO</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../Howto/setting.html">FromSandbox to Production</a></li>
+</ul>
+<p class="caption"><span class="caption-text">PLAN &amp; PRICING</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../Plan%26Pricing/Plan%26Pricing.html">เริ่มต้นการใช้งานตามความต้องการโดยเลือกตาม Plan ที่เหมาะสม</a></li>
+</ul>
+<p class="caption"><span class="caption-text">FAQs</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../faq/faq.html">FAQs</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">mana_docs</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>การ Register สำหรับนักพัฒนา</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../_sources/Quickstarts/GettingStarted.md.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="tex2jax_ignore mathjax_ignore section" id="register">
+<h1>การ Register สำหรับนักพัฒนา<a class="headerlink" href="#register" title="Permalink to this headline">¶</a></h1>
+<p>จะสามารถทำได้ก็ต่อเมื่อมีการเปิดใช้งาน Mana User เพื่อยืนยันตัวตนเป็นอันดับแรก และเมื่อทำกระบวนการการยืนยันตัวตนเรียบร้อยแล้วจึงจะสามารถ Register Fuction สำหรับนักพัฒนา ตามรูปแบบด้านล่างดังนี้</p>
+<p><img alt="a" src="../_images/gs0.PNG" /></p>
+<div class="section" id="mana-user">
+<h2>การเปิดใช้งาน Mana User<a class="headerlink" href="#mana-user" title="Permalink to this headline">¶</a></h2>
+<p>1.ผู้ใช้ทำการโหลด Mana Application จาก Store (AppStore, PlayStore)</p>
+<p><img alt="a" src="../_images/gs1.PNG" /></p>
+<p>ภาพที่1 (ซ้าย) Mana Application บน Store ของ Android  ,
+(ขวา) Mana Application บน Store ของ IOS</p>
+<p>2.ทำการ Log in เพื่อใช้งานโดยมีวิธีการดังนี้</p>
+<p>2.1 ระบุหมายเลขโทรศัพท์เพื่อรับรหัส OTP</p>
+<p><img alt="a" src="../_images/gs2.PNG" /></p>
+<p>ภาพที่2  (ซ้าย) การระบุหมายเลขโทรศัพท์เพื่อรอรับ OTP,
+(ขวา) การกรอก OTP ที่ได้รับจาก Message</p>
+<p>2.2 ระบุอีเมลล์เพื่อรับรหัส Code</p>
+<p><img alt="a" src="../_images/gs3.PNG" /></p>
+<p>ภาพที่3 (ซ้าย) การระบุอีเมลล์เพื่อรอรับรหัส Code,
+(ขวา) การกรอกรหัส Code ที่ได้รับจากอีเมลล์</p>
+<p>3.ทำการตั้งชื่อที่ใช้ในระบบ</p>
+<p><img alt="a" src="../_images/gs4.PNG" /></p>
+<p>ภาพที่4 การตั้งชื่อใน  Display name</p>
+<p>4.ตั้งค่า Pin ในการใช้งานครั้งแรก หลังจากนั้นจึงสามารถเข้าสู่หน้าหลักของ Mana Application ได้</p>
+<p><img alt="a" src="../_images/gs5.PNG" /></p>
+<p>ภาพที่5 (ซ้าย) การ Setup PIN ในการใช้งานครั้งแรก,
+(ขวา) การยืนยันการ Setup PIN</p>
+<p>5.หากต้องการเข้าสู่ระบบในภายหลังสามารถใช้ Pin ที่ถูกตั้งค่าไว้</p>
+<p><img alt="a" src="../_images/gs6.PNG" /></p>
+<p>ภาพที่6 (ซ้าย) การแสดงผลของผู้ใช้ที่เคยลงทะเบียนแล้ว,
+(ขวา) การกรอก PIN ที่เคย Setup ไว้</p>
+</div>
+<div class="section" id="id1">
+<h2>การสมัครเพื่อเป็นนักพัฒนา<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h2>
+<p>1.กด Side menu แล้วเลือกเมนู 'สำหรับนักพัฒนา'</p>
+<p><img alt="a" src="../_images/gs7.PNG" /></p>
+<p>ภาพที่7 เมนูสำหรับนักพัฒนา</p>
+<p>2.หน้าเลือกบัญชีสำหรับนักพัฒนาจะมีรายการของธุรกิจทั้งหมดที่คุณเป็นเจ้าของและหรือเป็นพนักงาน ซึ่งหากกดเครื่องหมาย + ด้านบนขวา จะเป็นการสร้างบัญชีนักพัฒนา</p>
+<p><img alt="a" src="../_images/gs8.PNG" /></p>
+<p>ภาพที่8 หน้าเลือกบัญชีสำหรับนักพัฒนา</p>
+<p>3.การสร้างบัญชีนักพัฒนาจำเป็นต้องกรอกข้อมูลตามภาพเพื่อทำการสร้างบัญชีใหม่ (เช่น ตั้งชื่อบัญชีนักพัฒนา, รูปภาพ, เบอร์โทร และสถานที่ตั้ง)</p>
+<p><img alt="a" src="../_images/gs9.PNG" /></p>
+<p>ภาพที่9  หน้าสร้างบัญชีนักพัฒนา</p>
+<p>4.เมื่อกรอกข้อมูลหน้าสร้างบัญชีนักพัฒนาเรียบร้อยแล้ว จะต้องรอการอนุมัติจาก Mana จึงจะเป็นการสำเร็จการสร้างบัญชีนักพัฒนา</p>
+<p><img alt="a" src="../_images/gs10.PNG" /></p>
+<p>ภาพที่10 รอการอนุมัติจาก Mana</p>
+<p>5.เมื่อ Mana ยืนยันการอนุมัติแล้วทางนักพัฒนาจะสามารถใช้งาน DevPortal ได้และจะสามารถปรับแต่งการใช้งานบัญชีนักพัฒนาได้ดังรูป</p>
+<p><img alt="a" src="../_images/gs11.PNG" /></p>
+<p>ภาพที่11 (ซ้าย) การใช้งานบัญชีนักพัฒนาแบบเบื้องต้น,(ขวา) การใช้งานบัญชีนักพัฒนาอย่างเต็มรูปแบบ</p>
+<p>6.หากกลับมาที่หน้าเลือกบัญชีสำหรับนักพัฒนาอีกครั้งจะแสดงรายการธุรกิจที่ได้รับการอนุมัติจาก Mana</p>
+<p><img alt="a" src="../_images/gs12.PNG" /></p>
+<p>ภาพที่12 หน้าเลือกบัญชีสำหรับนักพัฒนา</p>
+</div>
+<div class="section" id="log-in-devportal">
+<h2>การ Log in เพื่อเข้าใช้งาน DevPortal<a class="headerlink" href="#log-in-devportal" title="Permalink to this headline">¶</a></h2>
+<p>1.เปิดหน้า <a class="reference external" href="https://mana-apim-sandbox-test.developer.azure-api.net/">DevPortal</a> เพื่อทำการ Sign in</p>
+<p><img alt="a" src="../_images/slm1.PNG" /></p>
+<p>2.ใช้ Mana application สแกนเพื่อเข้าใช้งาน <a class="reference internal" href="#"><span class="doc std std-doc">ดูวิธีเปิดใช้งาน Mana User</span></a></p>
+<p><img alt="a" src="../_images/slm2.PNG" /></p>
+<!-- 3.เมื่อ[สมัครเป็นนักพัฒนา](GettingStarted.md) เรียบร้อยแล้ว ต้องทำการสแกนเพื่อ Log in เข้าใช้งาน DevPortal ทาง mana จะมีการส่งคำขออนุญาตเพื่อใช้งาน DevPortal -->
+<p>3.จะมีการส่งคำขออนุญาตเพื่อยืนยันการใช้งาน DevPortal ใน Mana application</p>
+<p><img alt="a" src="../_images/slm3.jpg" /></p>
+<p>4.เลือกอนุญาตและยืนยันเพื่อ Login เข้าสู่ Devportal</p>
+<p><img alt="a" src="../_images/slm4.PNG" /></p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="stepUpgrade_tier.html" class="btn btn-neutral float-right" title="ขั้นตอนการอัพเกรด Tier" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="../Introduction/Environments.html" class="btn btn-neutral float-left" title="Production and Sandbox Environments" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2021, mana_Admin.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
