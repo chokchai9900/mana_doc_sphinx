@@ -1,6 +1,6 @@
-pip freeze
 sphinx==3.4.3
 sphinx_rtd_theme==0.5.1
 readthedocs-sphinx-search==0.1.0
-recommonmark.parser==0.7.1
+Markdown==3.3.3
 myst_parser==0.15.1
+recommonmark.parser==0.7.1
