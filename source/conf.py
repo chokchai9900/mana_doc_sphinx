@@ -1,4 +1,3 @@
-from recommonmark.parser import CommonMarkParser
 # Configuration file for the Sphinx documentation builder.
 #
 # This file only contains a selection of the most common options. For a full
@@ -59,8 +58,6 @@ html_theme = 'sphinx_rtd_theme'
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
-
-source_parsers = {'.md': CommonMarkParser}
 
 source_suffix = {
     '.rst': 'restructuredtext',
