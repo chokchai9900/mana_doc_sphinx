@@ -1,0 +1,45 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, mana_Admin
+# This file is distributed under the same license as the mana_docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: mana_docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-06-25 14:02+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../Introduction/Environments.md:1
+msgid "Production and Sandbox Environments"
+msgstr ""
+
+#: ../../Introduction/Environments.md:2
+msgid "ทีมนักพัฒนาของ mana ได้มีการออกแบบสร้างสภาวะแวดล้อมที่เหมาะสมกับการพัฒนาระบบของนักพัฒนาภายนอก (3rd party) เพื่อให้สามารถทดลองระบบก่อนนำออกจำหน่ายสู่สาธารณะ โดยแบ่งเป็น 2 Environments ตามหัวข้อด้านล่างนี้"
+msgstr ""
+
+#: ../../Introduction/Environments.md:4
+msgid "Sandbox environment"
+msgstr ""
+
+#: ../../Introduction/Environments.md:8
+msgid "เป็นการสร้างสภาวะแวดล้อมจำลองที่ใกล้เคียงกับการทำงานจริง แต่มีการแยกขาดกันอย่างสิ้นเชิงกับระบบที่กำลังทำการเผยแพร่ในตลาด เพื่อให้ทีมนักพัฒนาสามารถทำการทดสอบการทำงานของระบบได้อย่างอิสระโดยไม่มีผลกระทบใดๆกับการใช้งานจริง ซึ่งนั่นหมายถึงเงินที่ใช้ทดสอบในช่วงนี้จะยังไม่ใช่เงินจริงเป็นเงินเสมือนเพื่อใช้ในการทดสอบ และผู้ใช้ภายนอกจะไม่สามารถเข้าใช้งานใดๆในขั้นตอนนี้ได้ นอกเสียจากทีมนักพัฒนาเอง ซึ่งนักพัฒนาที่มีความสนใจในการพัฒนาระบบร่วมกับ mana สามารถทำ[การสมัครเพื่อเป็นนักพัฒนา](../Quickstarts/GettingStarted.md)ได้ตามขั้นตอน"
+msgstr ""
+
+#: ../../Introduction/Environments.md:10
+msgid "Production environment"
+msgstr ""
+
+#: ../../Introduction/Environments.md:14
+msgid "เป็นการทำงานในสภาวะแวดล้อมที่ใช้ข้อมูลจริงทั้งหมด ซึ่งหมายถึงเงินที่ใช้ในช่วงนี้จะเป็นเงินจริงที่ใช้งานกับ Application บน store โดยการที่จะนำระบบออกสู่สาธารณะได้นั้นทีมนักพัฒนาต้องมี [Tier ที่เป็นระดับ Standard หรือสูงขึ้นไป](../Quickstarts/stepUpgrade_tier.md) เท่านั้นจึงจะสามารถนำระบบเผยแพร่ออกสู่สาธารณะได้"
+msgstr ""
+
+#: ../../Introduction/Environments.md:17
+msgid "ดังนั้นจากที่กล่าวมาข้างต้น เมื่อนักพัฒนาทำการสมัครเพื่อเป็นนักพัฒนาเรียบร้อยแล้ว จะสามารถทำการสร้างระบบ ออกแบบ และทดสอบการทำงานภายใต้ Sandbox environment ซึ่งหลังจากที่ทำการทดสอบจนเป็นที่พอใจและต้องการนำระบบเผยแพร่ออกสู่ตลาดจะต้องทำการเปลี่ยน Tier เป็น Standard หรือสูงขึ้นไปเพื่อใช้งาน Production environment"
+msgstr ""

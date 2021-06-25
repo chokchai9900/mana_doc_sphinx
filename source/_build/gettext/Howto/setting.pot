@@ -1,0 +1,42 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, mana_Admin
+# This file is distributed under the same license as the mana_docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: mana_docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-06-25 14:02+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../Howto/setting.md:1
+msgid "FromSandbox to Production"
+msgstr ""
+
+#: ../../Howto/setting.md:2
+msgid "ในระหว่างการพัฒนาระบบทีมนักพัฒนาสามารถทำการเชื่อม API กับทาง mana ได้โดยการนำ Sandbox key (Subscriptions key) มาใช้งาน ซึ่งหากนักพัฒนาได้ทำการทดสอบเป็นที่เรียบร้อยแล้วและต้องการจะนำระบบออกสู่สาธารณะจะต้องทำการ Publich service ซึ่งต้องใช้ Production key ที่ได้มาจากการเรียก API ใน Devportal พร้อมทั้งทำการเปลี่ยน ฺBaseURL หรือทำ Configuration ให้พร้อมกับการทำงานบน Environment นั้นๆ ซึ่งจากที่กล่าวมาสามารถอธิบายได้ดังรูปด้านล่าง"
+msgstr ""
+
+#: ../../Howto/setting.md:4
+msgid "![a](../img/Quickstarts/settingKey/settingKey.PNG)"
+msgstr ""
+
+#: ../../Howto/setting.md:4
+#: ../../Howto/setting.md:8
+msgid "a"
+msgstr ""
+
+#: ../../Howto/setting.md:6
+msgid "ซึ่งจากภาพด้านบนเป็นการทำงานของหนึ่ง Appication กับ Environment ที่มากกว่าหนึ่ง ดังนั้นทางทีมงานของ mana จึงมีข้อแนะนำให้ทีมนักพัฒนาแยกการทำงานของ Appication ที่ใช้ทดสอบ กับ Appication ที่ใช้งานจริงออกจากกันและมีการกำหนดสิทธิในการเข้าถึงข้อมูลและทรัพยากรของระบบไว้อย่างชัดเจน ทั้งนี้เพื่อให้ Appication ไม่สามารถเข้าถึงข้อมูลข้ามกันได้ดังรูปตัวอย่างด้านล่าง"
+msgstr ""
+
+#: ../../Howto/setting.md:8
+msgid "![a](../img/Quickstarts/settingKey/settingKey2.PNG)"
+msgstr ""
