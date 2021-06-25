@@ -44,7 +44,7 @@ language = 'th'
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path.
-exclude_patterns = ['APIs']
+exclude_patterns = []
 
 
 # -- Options for HTML output -------------------------------------------------
@@ -66,3 +66,8 @@ source_suffix = {
 }
 
 numpydoc_show_class_members = False
+latex_engine = 'lualatex'
+latex_use_xindy = False
+latex_elements = {
+    'preamble': '\\usepackage[UTF8]{ctex}\n',
+}
