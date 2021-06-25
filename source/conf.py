@@ -71,3 +71,5 @@ latex_use_xindy = False
 latex_elements = {
     'preamble': '\\usepackage[UTF8]{ctex}\n',
 }
+locale_dirs = ['locale/']   # path is example but recommended.
+gettext_compact = False     # optional.
