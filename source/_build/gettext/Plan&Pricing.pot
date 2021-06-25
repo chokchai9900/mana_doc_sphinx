@@ -1,0 +1,53 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, mana_Admin
+# This file is distributed under the same license as the mana_docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: mana_docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-06-25 10:37+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../Plan&Pricing/Plan&Pricing.md:1
+msgid "เริ่มต้นการใช้งานตามความต้องการโดยเลือกตาม Plan ที่เหมาะสม"
+msgstr ""
+
+#: ../../Plan&Pricing/Plan&Pricing.md:3
+msgid "![a](../img/PlanPricing/PlanCompare.png)"
+msgstr ""
+
+#: ../../Plan&Pricing/Plan&Pricing.md:3
+msgid "a"
+msgstr ""
+
+#: ../../Plan&Pricing/Plan&Pricing.md:5
+msgid "Free"
+msgstr ""
+
+#: ../../Plan&Pricing/Plan&Pricing.md:7
+msgid "หากคุณมีความสนใจที่จร่วมงานกับ Mana ไม่ว่าจะเป็นการเข้ามาศึกษาดูความสามารถของระบบ หรืออยากลองทดสอบการทำงานว่าตรงกับความต้องการของคุณหรือไม่ สามารถลองเล่นเบื้องต้นได้ง่ายๆจากระดับ Free โดยไม่มีค่าใช้จ่ายใดๆ ใน Sandbox environments"
+msgstr ""
+
+#: ../../Plan&Pricing/Plan&Pricing.md:9
+msgid "Standard"
+msgstr ""
+
+#: ../../Plan&Pricing/Plan&Pricing.md:11
+msgid "เมื่อทีมของคุณต้องการที่จะนำระบบที่ผ่านการทดสอบจาก Sandbox environments เพื่อให้ผู้ใช้งานภายนอกสามารถใช้งานระบบคุณได้อย่างกว้างขวางผ่าน Production environments ขอแนะนำให้ใช้ระดับ Standard โดยจะเสียค่าใช้จ่ายต่อปี ปีละ 3,000 บาท และมีการคิดค่าส่วนแบ่ง 30 เปอร์เซ็นต์ของ...."
+msgstr ""
+
+#: ../../Plan&Pricing/Plan&Pricing.md:13
+msgid "Official"
+msgstr ""
+
+#: ../../Plan&Pricing/Plan&Pricing.md:15
+msgid "หากทีมของคุณมีความสนใจ..... โดยจะเสียค่าใช้จ่ายต่อปี ปีละ 30,000 บาท และมีการคิดค่าส่วนแบ่ง 30 เปอร์เซ็นต์ของ...."
+msgstr ""

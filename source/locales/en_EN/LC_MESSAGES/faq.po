@@ -1,0 +1,167 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, mana_Admin
+# This file is distributed under the same license as the mana_docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: mana_docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-06-25 10:37+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../faq/faq.md:1
+msgid "FAQs"
+msgstr ""
+
+#: ../../faq/faq.md:3
+msgid "**1.Devportal คืออะไร ?**"
+msgstr ""
+
+#: ../../faq/faq.md:4
+msgid ""
+"Devportal คือพื้นที่ที่เปิดให้บริการสำหรับนักพัฒนาเข้ามาใช้งานกับ APIs "
+"ต่างๆที่ทาง mana เปิดให้ใช้บริการ"
+msgstr ""
+
+#: ../../faq/faq.md:6
+msgid "**2.ใครสามารถเข้าใช้งาน Devportal ได้ ?**"
+msgstr ""
+
+#: ../../faq/faq.md:7
+msgid ""
+"กลุ่มนักพัฒนาทั่วไปหรือองค์กรที่มีความสนใจจะพัฒนาระบบร่วมกันกับ mana "
+"สามารถสมัครเป็นนักพัฒนาเพื่อใช้งาน Devportal"
+msgstr ""
+
+#: ../../faq/faq.md:9
+msgid "**3.ประโยชน์ของการใช้งาน Devportal คืออะไร ?**"
+msgstr ""
+
+#: ../../faq/faq.md:10
+msgid ""
+"เมื่อนักพัฒนาเข้ามาที่ Devportal ก็จะทราบได้ทันทีว่ามี APIs "
+"ใดบ้างและมีการเรียกใช้งานอย่างไร "
+"ซึ่งสามารถทดลองเรียกใช้งานออนไลน์ได้ทันทีและสำหรับบาง API "
+"จำเป็นต้องมีสิทธิ (Tier) ในการเข้าถึง"
+msgstr ""
+
+#: ../../faq/faq.md:12
+msgid "**4.มีค่าใช้จ่ายในการใช้ Devportal  หรือไม่ ?**"
+msgstr ""
+
+#: ../../faq/faq.md:13
+msgid ""
+"ใน [Plan & Pricing](../Plan&Pricing/Plan&Pricing.md) "
+"จะมีการคิดค่าบริการตามระดับ Tier ที่ได้ทำการสมัคร "
+"ซึ่งหากนักพัฒนายังไม่แน่ใจว่าจะใช้งานดีหรือไม่สามารถลองใช้งานเบื้องต้นได้กับระดับ"
+" Free tier"
+msgstr ""
+
+#: ../../faq/faq.md:15
+msgid "**5.Devportal  มีบริการอะไรบ้าง ?**"
+msgstr ""
+
+#: ../../faq/faq.md:16
+msgid ""
+"Devportal มีหมวดหมู่ [APIs](../apis/APIs.md) ให้บริการให้เลือกใช้มากมาย "
+"เช่น Products and Orders Transaction Management และอื่นๆอีกมากมาย"
+msgstr ""
+
+#: ../../faq/faq.md:18
+msgid "**6.จะสามารถรับและเข้าถึงข้อมูลของ Devportal ได้อย่างไร ?**"
+msgstr ""
+
+#: ../../faq/faq.md:19
+msgid ""
+"Devportal มี APIs ให้ใช้บริการ ดังนั้นการรับส่งข้อมูลจะเป็นในรูปแบบการยิง"
+" APIs เพื่อรับและส่งข้อมูลไปมากับทาง Server ของ Mana"
+msgstr ""
+
+#: ../../faq/faq.md:21
+msgid "**7.ความปลอดภัยของ Devportal ?**"
+msgstr ""
+
+#: ../../faq/faq.md:22
+msgid ""
+"เนื่องจากเราใช้ระบบ IDP ในการระบุตัวตนสำหรับการเข้าใช้งาน Devportal และ "
+"ในบัญชี Free tier APIs ที่ทุกตัวที่เปิดให้บริการจะอยู่ใน SandBox "
+"environment เท่านั้นซึ่งจะไม่มีผลกระทบใดๆกับ APIs บน Production"
+msgstr ""
+
+#: ../../faq/faq.md:24
+msgid "**8.Devportal มีเงื่อนไขในการเข้าร่วมหรือไม่ ?**"
+msgstr ""
+
+#: ../../faq/faq.md:25
+msgid ""
+"การจะเข้ามาทำงานกับ Devportal จำเป็นจะต้องเปิดใช้งาน Mana User "
+"เพื่อสมัครเป็นนักพัฒนาเสียก่อนจึงจะสามารถเข้าใช้งานได้"
+msgstr ""
+
+#: ../../faq/faq.md:27
+msgid "**9.การสมัครเข้าร่วมใช้งาน Devportal ใช้เวลานานหรือไม่ ?**"
+msgstr ""
+
+#: ../../faq/faq.md:28
+msgid ""
+"การสมัครใช้เวลาไม่นาน "
+"แต่จำเป็นจะต้องรอให้ผู้ให้บริการตรวจสอบและอนุมัติการใช้งานบัญชีสำหรับนักพัฒนาจึงจะสามารถเข้าใช้งานได้"
+msgstr ""
+
+#: ../../faq/faq.md:30
+msgid "**10.สัญญาของ Devportal มีวันหมดอายุหรือไม่ ?**"
+msgstr ""
+
+#: ../../faq/faq.md:31
+msgid ""
+"หากเป็นบัญชี Free tier จะไม่มีวันหมดอายุ แต่ถ้าหากเป็นบัญชีที่อยู่ในระดับ"
+" Standard หรือ offical จำเป็นจะต้องต่ออายุแบบรายปี ตามที่ระบุไว้ [Plan & "
+"Pricing](../Plan&Pricing/Plan&Pricing.md)"
+msgstr ""
+
+#: ../../faq/faq.md:33
+msgid "**11.มีค่าใช้จ่ายในการต่อสัญญาหรือไม่ ?**"
+msgstr ""
+
+#: ../../faq/faq.md:34
+msgid ""
+"หากเป็นบัญชี Free tier จะไม่มีค่าใช้จ่ายในการต่อสัญญา "
+"แต่ถ้าหากเป็นบัญชีที่อยู่ในระดับ Standard หรือ offical "
+"จะต้องเสียค่าใช้จ่ายรายปี ตามที่ระบุไว้ [Plan & "
+"Pricing](../Plan&Pricing/Plan&Pricing.md)"
+msgstr ""
+
+#: ../../faq/faq.md:36
+msgid "**12.การเข้าใช้งาน Devportal ในฐานะนักพัฒนา มีระยะเวลากำหนดหรือไม่ ?**"
+msgstr ""
+
+#: ../../faq/faq.md:37
+msgid ""
+"การเข้าใช้งาน Devportal ในฐานะนักพัฒนานั้นจะมีเวลาจำกัดเข้าชมอยู่ที่ 30 "
+"นาที"
+msgstr ""
+
+#: ../../faq/faq.md:39
+msgid "**13.มีการจำกัดอัตราการส่งข้อมูลหรือไม่ ?**"
+msgstr ""
+
+#: ../../faq/faq.md:40
+msgid "ทาง Devportal จำกัดอัตราการส่งข้อมูลอยู๋ที่ 500 requests/sec"
+msgstr ""
+
+#: ../../faq/faq.md:42
+msgid "**14.Devportal รับรอง Transaction ได้มากเพียงใด ?**"
+msgstr ""
+
+#: ../../faq/faq.md:43
+msgid "ทาง Devportal รองรับ transaction ได้มากที่สุด  1,000  transaction/sec"
+msgstr ""
+

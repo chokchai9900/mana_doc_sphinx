@@ -1,0 +1,297 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, mana_Admin
+# This file is distributed under the same license as the mana_docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: mana_docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-06-25 10:37+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../Tutorial/Adhoc.md:1
+msgid "Using Adhoc Service"
+msgstr ""
+
+#: ../../Tutorial/Adhoc.md:2
+msgid ""
+"เป็นบริการการสร้าง QR เพื่อจ่ายเงินให้กับร้านค้าชนิดหนึ่ง "
+"ซึ่งผู้ใช้งานไม่จำเป็นต้องกรอกข้อมูลหรือรายเอียดใดๆเพิ่มเติม "
+"สามารถใช้งานได้โดยการสแกน QR "
+"ผ่านทางแอพพลิเคชั่นใดๆก็ตามเพื่อทำการจ่ายเงินให้กับร้าน "
+"โดยหากนักพัฒนาต้องการใช้บริการสามารถทำได้ตามขั้นตอนด้านล่างดังนี้"
+msgstr ""
+
+#: ../../Tutorial/Adhoc.md:4
+msgid ""
+"1.ทำ[การสมัครเพื่อเป็นนักพัฒนา](../Quickstarts/GettingStarted.md) ใน Mana"
+" application"
+msgstr ""
+
+#: ../../Tutorial/Adhoc.md:6
+msgid ""
+"2.สร้าง Service ที่ DevPortal ซึ่งในขั้นตอนนี้จะได้ ServiceId "
+"เพื่อเอาไว้ใช้งาน"
+msgstr ""
+
+#: ../../Tutorial/Adhoc.md:8
+msgid "3.นำ ServiceId ที่ได้มาทำการ Register AdhocPaymentHook ที่ DevPortal"
+msgstr ""
+
+#: ../../Tutorial/Adhoc.md:10
+msgid ""
+"4.ในระยะพัฒนาหากต้องการทดสอบการทำงานต้องใช้ Mana sandbox application "
+"ในการทดสอบ"
+msgstr ""
+
+#: ../../Tutorial/Adhoc.md:12
+msgid ""
+"5.หลังจากที่มีการ Public service เรียบร้อยและต้องการทดสอบระบบก่อนการ "
+"Lanuch สามารถทดสอบได้ผ่าน Mana application บน Store"
+msgstr ""
+
+#: ../../Tutorial/CreateServices.md:1
+msgid "การสร้าง Service"
+msgstr ""
+
+#: ../../Tutorial/CreateServices.md:2
+msgid ""
+"**Service** "
+"หรือระบบที่ถูกสร้างขึ้นมาเพื่อรองรับหรือตอบโจทย์กับการใช้งานในธุรกิจต่างๆ"
+" ซึ่งระบบที่ว่านี้จะถูกพัฒนาโดยนักพัฒนาภายนอก (3rd party) "
+"ซึ่งหากนักพัฒนาจะสร้าง Service ต้องทำการสร้างใน Devportal "
+"โดยมีขั้นตอนดังนี้"
+msgstr ""
+
+#: ../../Tutorial/CreateServices.md:5
+msgid ""
+"1.เลือกหมวด [API Service Management](../apis/APIs.md) เลือก Create "
+"Service และ Try it"
+msgstr ""
+
+#: ../../Tutorial/CreateServices.md:7
+msgid "![a](../img/Tutorial/createService/serviceManage.jpg)"
+msgstr ""
+
+#: ../../Tutorial/CreateServices.md:7 ../../Tutorial/CreateServices.md:11
+#: ../../Tutorial/CreateServices.md:15
+#: ../../Tutorial/FromSandbox_Production.md:7
+#: ../../Tutorial/FromSandbox_Production.md:11
+msgid "a"
+msgstr ""
+
+#: ../../Tutorial/CreateServices.md:9
+msgid "2.กรอกข้อมูลให้ครบถ้วน"
+msgstr ""
+
+#: ../../Tutorial/CreateServices.md:11
+msgid "![a](../img/Tutorial/createService/tryit.jpg)"
+msgstr ""
+
+#: ../../Tutorial/CreateServices.md:13
+msgid ""
+"3.หลังจากทำการสร้าง Service เป็นที่เรียบร้อยแล้ว นักพัฒนาจะได้รับ "
+"ServiceID กลับมาซึ่งในการเข้าใช้งาน APIs อื่นๆ อาจต้องทำการส่ง ServiceID "
+"แนบไปด้วย"
+msgstr ""
+
+#: ../../Tutorial/CreateServices.md:15
+msgid "![a](../img/Tutorial/createService/serviceId.jpg)"
+msgstr ""
+
+#: ../../Tutorial/FromSandbox_Production.md:1
+msgid "FromSandbox to Production"
+msgstr ""
+
+#: ../../Tutorial/FromSandbox_Production.md:3
+msgid ""
+"ในระหว่างการพัฒนาระบบโดยปกติแล้วเมื่อทำการสมัครเป็นนักพัฒนาเรียบร้อยแล้วจะได้รับ"
+" Sandbox key (Subscriptions key) เป็นตัวตั้งต้นซึ่งสามารถนำ key "
+"ที่ได้รับไปใช้ในระบบของทีมนักพัฒนาไม่ว่าจะเป็นการทำ Configuration "
+"หรือการตั้งค่า ฺBaseURL เพื่อทำการเชื่อมต่อกับ APIs ของ mana "
+"โดยการเข้าถึง Key นั้นสามารถทำได้ผ่านการ Sign in เข้าสู่ DevPortal "
+"และดูข้อมูลผ่านเมนู Profile"
+msgstr ""
+
+#: ../../Tutorial/FromSandbox_Production.md:5
+msgid "1.ทำการ Sign in ใน Devportal และไปที่เมนู Profile เพื่อนำ Key มาใช้งาน"
+msgstr ""
+
+#: ../../Tutorial/FromSandbox_Production.md:7
+msgid "![a](../img/Tutorial/sand2prod/getkey1.png)"
+msgstr ""
+
+#: ../../Tutorial/FromSandbox_Production.md:9
+msgid "2.ในเมนู Profile จะแสดงข้อมูลของ Key ตามระดับของ Tier ที่ลงทะเบียนไว้"
+msgstr ""
+
+#: ../../Tutorial/FromSandbox_Production.md:11
+msgid "![a](../img/Tutorial/sand2prod/getkey2.png)"
+msgstr ""
+
+#: ../../Tutorial/FromSandbox_Production.md:13
+msgid ""
+"หากนักพัฒนาต้องการที่จะ[อัพเกรด Tier เป็นระดับ Standard "
+"หรือสูงขึ้น](../Quickstarts/stepUpgrade_tier.md)เพื่อขอสิทธิ์เข้าถึงข้อมูลที่มากขึ้น"
+" เมื่อทำการอัพเกรด Tier แล้วจะสามารถเรียกใช้ APIs ได้มากขึ้นตามระดับ Tier"
+" ที่ได้อัพเกรดไว้ ซึ่งรวมถึงการ Publish service"
+msgstr ""
+
+#: ../../Tutorial/FromSandbox_Production.md:15
+msgid ""
+"ฉะนั้นการ Publish service จึงเป็นการเตรียมการเปลี่ยนจากช่วงระยะพัฒนา "
+"(Development) ไปยังระยะเตรียมปล่อยระบบออกสู่สาธารณะ (Pre-release) "
+"ตาม[วงจรการพัฒนาระบบ](../Introduction/DevelopmentCycle.md) "
+"และรวมถึงการเตรียมการเปลี่ยนจาก Sandbox มาใช้ Production environment"
+msgstr ""
+
+#: ../../Tutorial/FromSandbox_Production.md:17
+msgid ""
+"ดังนั้นหากต้องการเชื่อมต่อกับ APIs ของ Production environment "
+"จำเป็นต้องใช้ Production Key ในการทำงานซึ่งการจะนำ Production Key "
+"มาใช้งานนั้นต้องทำการเรียกผ่าน API (production subscriptions) ใน "
+"DevPortal และทำการ Configure หรือตั้งค่า ฺBaseURL เพื่อทำการเชื่อมต่อกับ "
+"APIs ของ Production environment"
+msgstr ""
+
+#: ../../Tutorial/FromSandbox_Production.md:19
+msgid "รูปตัวอย่าง call api"
+msgstr ""
+
+#: ../../Tutorial/FromSandbox_Production.md:21
+msgid ""
+"และหลังจากที่ทีมนักพัฒนาได้มีการทดสอบระบบในช่วง Pre-release "
+"เป็นที่เรียบร้อยแล้ว หากต้องการนำระบบเผยแพร่ออกสู่สาธารณะ "
+"จะต้องมีการแจ้งเข้ามาเพื่อให้ทาง mana "
+"ทำการตรวจสอบและเตรียมดำเนินการเผยแพร่ออกสู่สาธารณะผ่านการเรียกใช้ API "
+"(Service publish)"
+msgstr ""
+
+#: ../../Tutorial/RegisterLoginFlow.md:1
+msgid "การใช้ APIs [POST] RegisterLoginFlow"
+msgstr ""
+
+#: ../../Tutorial/RegisterLoginFlow.md:3
+msgid ""
+"การเรียกใช้ APIs RegisterLoginFlow จะได้ค่า LoginId  "
+"เพื่อให้ทางนักพัฒนาระบบมาทำการตั้งค่า Config ใน Service "
+"ที่ทางนักพัฒนาระบบทำขึ้น"
+msgstr ""
+
+#: ../../Tutorial/RegisterLoginFlow.md:6
+msgid "1.เข้ามาที่ devportal แล้วทำการ Login"
+msgstr ""
+
+#: ../../Tutorial/RegisterLoginFlow.md:8
+msgid "3.เข้าใน APIs แล้วไปที่หมวดหมู่ Service Management"
+msgstr ""
+
+#: ../../Tutorial/RegisterLoginFlow.md:10
+msgid "4.กดที่ APIs post ResgisterLoginFlow แล้วกด Try it"
+msgstr ""
+
+#: ../../Tutorial/RegisterLoginFlow.md:12
+msgid ""
+"5.เอาค่า ServiceId ที่ได้จากตอนสร้าง Services  มาใส่ใน ค่า Value ของ "
+"serviceId"
+msgstr ""
+
+#: ../../Tutorial/RegisterLoginFlow.md:14
+msgid "ใส่ค่าใน Body ตัวอย่าง"
+msgstr ""
+
+#: ../../Tutorial/RegisterLoginFlow.md:29
+msgid "กรอกข้อมูลครบแล้วกด Send เพื่อเอาค่า LoginId ได้เลย"
+msgstr ""
+
+#: ../../Tutorial/RegisterLoginFlow.md:32
+msgid "ระบบ 3rd Login"
+msgstr ""
+
+#: ../../Tutorial/RegisterLoginFlow.md:34
+msgid "1.สร้างหน้า web เพื่อให้ User Login"
+msgstr ""
+
+#: ../../Tutorial/RegisterLoginFlow.md:36
+msgid ""
+"2.User กด Login มีการเรียกใช้ API IDP(เปลี่ยนชื่อ API) โดยการส่งค่า "
+"ServiceId และ LoginId"
+msgstr ""
+
+#: ../../Tutorial/RegisterLoginFlow.md:38
+msgid "3.API IDP(เปลี่ยนชื่อ API) ตอบ URL กลับมาแล้วสร้างเป็น QR หรือ AppLink"
+msgstr ""
+
+#: ../../Tutorial/RegisterLoginFlow.md:40
+msgid "4.ใช้ App mana scan QR"
+msgstr ""
+
+#: ../../Tutorial/Using_manalib.md:1
+msgid "Mana library"
+msgstr ""
+
+#: ../../Tutorial/Using_manalib.md:2
+msgid ""
+"ใน Mana application จะมีฟังก์ชั่นที่อนุญาตให้ 3rd party ทำการ [Register "
+"mContent](https://www.google.com \"Google's Homepage\") "
+"เพื่อนำหน้าเว็บที่ทาง 3rd party พัฒนามาแสดงใน Mana application "
+"ซึ่งหน้าเว็บที่จะนำมาแสดงสามารถเรียกใช้ความสามารถตามที่ **Mana library** "
+"เขียนไว้ หากนักพัฒนาต้องการเรียกใช้งานจะมีขั้นตอนดังนี้"
+msgstr ""
+
+#: ../../Tutorial/Using_manalib.md:3
+msgid "การติดตั้ง Mana Library"
+msgstr ""
+
+#: ../../Tutorial/Using_manalib.md:4
+msgid "ติดตั้งใน Html"
+msgstr ""
+
+#: ../../Tutorial/Using_manalib.md:5 ../../Tutorial/Using_manalib.md:19
+msgid "1.ติดตั้ง Mana Library ผ่าน Command prompt"
+msgstr ""
+
+#: ../../Tutorial/Using_manalib.md:10
+msgid "2.ใส่ Script ใน tag Head ซึ่งแนะนำให้ใช้ jquery ในการทำงานด้วย"
+msgstr ""
+
+#: ../../Tutorial/Using_manalib.md:18
+msgid "ติดตั้งใน Ionic (รองรับการใช้การสำหรับ Ionic4)"
+msgstr ""
+
+#: ../../Tutorial/Using_manalib.md:24
+msgid "2.ไฟล์ app.module.ts ใส่ IonManaLib ใน providers"
+msgstr ""
+
+#: ../../Tutorial/Using_manalib.md:37
+msgid ""
+"สำหรับการ Run locale test สามารถใส่ .SetConfiguration(\"svcid\",\"key\") "
+"หลัง IonManaLib เพื่อแสดงหน้าตา UI"
+msgstr ""
+
+#: ../../Tutorial/Using_manalib.md:49
+msgid "การเรียกใช้งาน Mana Library"
+msgstr ""
+
+#: ../../Tutorial/Using_manalib.md:50
+msgid ""
+"1.ในการใช้งานลำดับแรกทาง mana แนะนำให้เรียกใช้งาน initPageApi "
+"เพื่อเป็นการเตรียมหน้าเพจให้พร้อมใช้งาน"
+msgstr ""
+
+#: ../../Tutorial/Using_manalib.md:51
+msgid "การใช้งานใน Html"
+msgstr ""
+
+#: ../../Tutorial/Using_manalib.md:74
+msgid "การใช้งานใน Ionic (รองรับการใช้การสำหรับ Ionic4)"
+msgstr ""
+
