@@ -65,11 +65,6 @@ source_suffix = {
     '.md': 'markdown',
 }
 
-numpydoc_show_class_members = False
-latex_engine = 'lualatex'
-latex_use_xindy = False
-latex_elements = {
-    'preamble': '\\usepackage[UTF8]{ctex}\n',
-}
-locale_dirs = ['locale/']   # path is example but recommended.
-gettext_compact = False     # optional.
+language = 'th'
+locale_dirs = ['locale/']
+gettext_compact = False
