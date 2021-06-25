@@ -18,3 +18,22 @@ help:
 # "make mode" option.  $(O) is meant as a shortcut for $(SPHINXOPTS).
 %: Makefile
 	@$(SPHINXBUILD) -M $@ "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
+
+html: $(SPHINX_DEPENDENCIES)
+    cd en_EN && make html LANG=en
+    cd th_TH && make html LANG=th_TH
+ 
+htmlhelp: $(SPHINX_DEPENDENCIES)
+    cd en_EN && make htmlhelp LANG=en
+    cd th_TH && make htmlhelp LANG=th_TH
+ 
+epub: $(SPHINX_DEPENDENCIES)
+    cd en_EN && make epub LANG=en
+    cd th_TH && make epub LANG=th_TH
+ 
+latexpdf: $(SPHINX_DEPENDENCIES)
+    cd en_EN && make latexpdf LANG=en
+    cd th_TH && make latexpdf LANG=th_TH
+
+clean:
+    rm -rf build/*
