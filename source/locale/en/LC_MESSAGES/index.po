@@ -19,39 +19,39 @@ msgstr ""
 
 #: ../../index.rst:12
 msgid "INTRODUCTION"
-msgstr ""
+msgstr "INTRODUCTION"
 
 #: ../../index.rst:20
 msgid "QUICKSTARTS"
-msgstr ""
+msgstr "QUICKSTARTS"
 
 #: ../../index.rst:28
 msgid "TUTORIAL"
-msgstr ""
+msgstr "TUTORIAL"
 
 #: ../../index.rst:38
 msgid "APIs"
-msgstr ""
+msgstr "APIs"
 
 #: ../../index.rst:45
 msgid "HOWTO"
-msgstr ""
+msgstr "HOWTO"
 
 #: ../../index.rst:52
 msgid "PLAN & PRICING"
-msgstr ""
+msgstr "PLAN & PRICING"
 
 #: ../../index.rst:58
 msgid "FAQs"
-msgstr ""
+msgstr "FAQs"
 
 #: ../../index.rst:3
 msgid "Mana Devportal"
-msgstr ""
+msgstr "Mana Devportal"
 
 #: ../../index.rst:5
 msgid "Features ต่างๆที่ทาง mana เปิดให้นักพัฒนาสามารถเข้าใช้งานผ่าน API"
-msgstr ""
+msgstr "Features ต่างๆที่ทาง mana เปิดให้นักพัฒนาสามารถเข้าใช้งานผ่าน API"
 
 #: ../../index.rst:10
 msgid ""
@@ -67,5 +67,11 @@ msgid ""
 "Ipsum และล่าสุดกว่านั้น คือเมื่อซอฟท์แวร์การทำสื่อสิ่งพิมพ์ (Desktop "
 "Publishing) อย่าง Aldus PageMaker ได้รวมเอา Lorem Ipsum เวอร์ชั่นต่างๆ "
 "เข้าไว้ในซอฟท์แวร์ด้วย"
-msgstr "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+msgstr ""
+"Lorem Ipsum is simply dummy text of the printing and typesetting industry. "
+"Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, "
+"when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+" It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+" It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently "
+"with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
 
